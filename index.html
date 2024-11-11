@@ -1,16 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links Pagina</title>
+    <title>Empresa de Exportación de Vegetación de Alta Calidad</title>
+    <link rel="icon" href="img/logocebollititita.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <h1>
-        Prueba de pagina
-    </h1>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus in placeat velit neque alias suscipit explicabo laboriosam animi, quo sint, perferendis consequuntur reiciendis blanditiis, porro asperiores perspiciatis fugiat veritatis eveniet.
-    </p>
+
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#sobre-nosotros">Acerca de Nosotros</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h1>Vegetación de Alta Calidad desde Mendoza, Argentina</h1>
+        <p>Nos especializamos en el cultivo y exportación de vegetación de excelente calidad, con un enfoque en productos como el ajo, exportados a nivel internacional.</p>
+    </section>
+
+    <!-- Sección de galería -->
+    <section id="galeria">
+        <h2>Nuestra Galería</h2>
+        <div class="imagenes-galeria">
+            <img src="/img/campo.jpg" alt="Campo de cultivo">
+            <img src="/img/cultivo-ajo.jpg" alt="Cultivo de ajo">
+            <img src="/img/exportacion-camiones.jpg" alt="Exportación de productos">
+        </div>
+    </section>
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="sobre-nosotros">
+        <h2>Acerca de Nosotros</h2>
+        <p>Somos una empresa argentina ubicada en Mendoza, comprometida con la calidad y sostenibilidad en el cultivo de vegetación. Nos enorgullece exportar productos frescos y de primera calidad a mercados internacionales.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
 </body>
 </html>
